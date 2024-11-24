@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Schoolbell&display=swap');
+
+:root {
+    --fonte-principal: 'Montserrat';
+    --cor-fonte-principal: #0A3DD0;
+    --cor-botao: #0A3DD0;
+    --cor-fonte-branca: #FFFFFF;
+    --background-color: #2176FB;
+    --cor-destaque-texto: #000000;
+    --cor-fundo-secundaria: #161616;
+    --cor-fundo-imput: #e2e2e2;
+    --botao-ativo: #00ccff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte-principal);
+}
+
+.logo__topo {
+    width: 8.5%;
+    margin: 2% 5%
+}
+
+#inicio {
+    color: black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 3% 8% 6% 8%;
+}
+
+h1 {
+    color: var(--cor-fonte-principal);
+    font-style: italic;
+    font-size: 200%;
+    margin: 2% 10%;
+}
+
+h2 {
+    font-size: 150%;
+    margin: 0 10% 5% 10%;
+}
+
+.botao__topo {
+    text-decoration: none;
+    background-color: var(--cor-botao);
+    color: var(--cor-fonte-branca);
+    font-size: 120%;
+    font-weight: 600;
+    margin: 10%;
+    padding: 20px 70px;
+    border-radius: 20px;
+    transition: 0.9s;
+
+}
+
+.botao__topo:hover {
+    background-color: var(--background-color);
+    transition: 0.9s;
+    font-size: 110%;
+}
+
+.img__gustavo {
+    width: 38%;
+}
+
+#vantagens {
+    background-color: var(--background-color);
+    padding: 5% 10% 2% 10%;
+}
+
+.titulo__section {
+    font-size: 150%;
+    color: var(--cor-fonte-branca);
+    text-align: center;
+    margin: 0% 25% 5% 25%;
+}
+
+.lista__vantagens {
+    list-style-type: none;
+    display: flex;
+    margin: 5%;
+
+}
+
+.item__vantagem {
+    display: flex;
+    align-items: center;
+    margin: 6% 0;
+
+}
+
+.numero__lista {
+    font-size: 250%;
+    margin: 0 5% 0 0;
+}
+
+.texto__vantagem {
+    font-size: 120%;
+    margin: 0 10% 0 3%;
+    color: var(--cor-fonte-branca);
+    font-weight: 600;
+}
+
+.imagem__numero {
+    width: 5.5%;
+}
+
+#como__funciona {
+    background-image: url(img/logo_fundo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tres {
+    color: var(--cor-fonte-principal);
+    margin: 4% 0 0 0;
+}
+
+.lista__instrucao {
+    margin: 5% 20%;
+    text-align: center;
+    list-style-type: none;
+}
+
+.item__instrucao {
+    margin: 4% 0;
+}
+
+.texto__instrucao {
+    color: var(--cor-fonte-principal);
+    font-size: 120%;
+    font-weight: 600;
+    text-align: left;
+}
+
+.destaque__instrucao {
+    color: var(--cor-destaque-texto);
+}
+
+#depoimentos {
+    background-image: url(img/background\ depoimentos.png);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    padding: 5% 5% 3% 5%;
+}
+
+.lista__depoimento {
+    list-style-type: none;
+}
+
+.texto__depoimento {
+    color: var(--cor-fonte-branca);
+    font-size: 120%;
+    font-weight: 600;
+}
+
+.item__depoimento {
+    margin: 3% 20%;
+}
+
+.img__aspas {
+    width: 3%;
+}
+
+.titulo__cinco {
+    color: var(--cor-fonte-principal);
+    margin: 3% 20%;
+}
+
+#formulario {
+    text-align: center;
+    margin: 0 40%;
+    padding: 0 0 5% 0;
+}
+
+.titulo__formulario {
+    color: var(--cor-fonte-principal);
+}
+
+.botao__enviar {
+    background-color: var(--cor-botao);
+    padding: 10px 90px;
+    border-radius: 12px;
+    border-color: var(--cor-botao);
+    font-size: 100%;
+    font-weight: 400;
+    color: var(--cor-fonte-branca);
+    transition: 0.5s;
+    outline: none;
+}
+
+.botao__enviar:hover {
+    background-color: var(--background-color);
+    transition: 0.5s;
+}
+
+.botao__enviar:active {
+    background-color: var(--botao-ativo);
+}
+
+.observacao__formulario {
+    text-align: center;
+    font-weight: 600;
+    font-size: 80%;
+    margin: 0 0 5% 0;
+}
+
+.texto__formulario {
+    font-size: 120%;
+}
+
+.espaco__escrita {
+    padding: 10px 50px;
+    text-align: left;
+    background-color: var(--cor-fundo-imput);
+    border-radius: 4px;
+    border-color: var(--cor-fundo-imput);
+    border-style: none;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px 15px 5px 15px;
+}
+
+.rodape {
+    background-color: var(--cor-fundo-secundaria);
+    padding: 3%;
+    text-align: center;
+    color: var(--cor-fonte-branca);
+    font-weight: 600;
+    font-style: italic;
+    font-size: 115%;
+}
+
+.texto__rodape {
+    margin: 2%;
+
+}
+
+@media (max-width: 1000px) {
+    #como__funciona {
+        background-size: 50%;
+    }
+
+    #formulario {
+        display: block;
+        flex-direction: column;
+        text-align: left;
+        margin: 0% 40%;
+    }
+}
+
+@media (max-width: 770px) {
+
+    #inicio {
+        display: block;
+    }
+
+    .img__gustavo {
+        margin: 5% 0;
+    }
+
+    #depoimentos {
+        background-size: 120%;
+    }
+
+    .section__formulario {
+        padding: 0;
+        margin: 0;
+    }
+
+    .item__depoimento {
+        font-size: 80%;
+    }
+
+    .texto__instrucao {
+        font-size: 80%;
+    }
+
+    .texto__vantagem {
+        font-size: 80%;
+    }
+
+    .numero__lista {
+        font-size: 150%;
+    }
+
+    #formulario {
+        margin: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .rodape {
+        font-size: 55%;
+    }
+
+}
+
+@media (max-width: 805px) {
+    .botao__topo {
+        margin: 3% 0;
+    }
+
+    #inicio {
+        margin: 5% 0;
+    }
+
+}
+
+@media (max-width: 620px) {
+    #depoimentos {
+        background-size: 150%;
+    }
+
+    .lista__vantagens {
+        display: block;
+        margin: 0;
+    }
+
+    .titulo__section {
+        margin: 0;
+    }
+
+    .titulo__formulario {
+        margin: 0 0 10% 0;
+    }
+
+    h1 {
+        font-size: 150%;
+    }
+
+    h2 {
+        font-size: 120%;
+    }
+
+    .botao__topo {
+        font-size: 100%;
+    }
+
+    .botao__topo:hover {
+        font-size: 98%;
+    }
+
+    .titulo__section {
+        margin: 0;
+        padding: 0%;
+    }
+
+    .logo__topo {
+        width: 20%;
+    }
+
+    #formulario {
+        margin: 0 20%;
+    }
+}
+
+@media (max-width: 520px) {
+
+    .titulo__formulario {
+        margin: 0 0 10% 0;
+    }
+
+    .observacao__formulario {
+        margin: 5% 5% 20% 5%;
+    }
+
+    #vantagens {
+        margin: 0;
+        padding: 10% 5%;
+    }
+
+    .lista__instrucao {
+        margin: 5%;
+    }
+
+    .tres {
+        margin: 5% 0;
+    }
+
+    #depoimentos {
+        background-size: 190%;
+    }
+
+    .item__depoimento {
+        margin: 0;
+    }
+
+    .img__gustavo {
+        margin: 15%;
+    }
+
+    .botao__topo {
+        margin: 15% 0;
+    }
+
+    h2 {
+        margin: 0 0 20% 0;
+    }
+
+}
+
+@media (max-width: 430px) {
+    #depoimentos {
+        background-size: 250%;
+    }
+}
+
+@media (max-width: 360px) {
+    #depoimentos {
+        background-size: 350%;
+    }
+
+    .botao__topo {
+        margin: 0;
+    }
+
+    .container__inicio {
+        margin: 20% 0;
+    }
+
+}
